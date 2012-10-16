@@ -11,7 +11,7 @@
         <?php foreach ($posts as $post): ?>
     <div class="well">
         <h3>
-            <?php echo $this->Html->link($post['Post']['title'], array('action' => 'view', $post['Post']['id'])); ?><small class="pull-right"><?php echo $post['Post']['created']; ?>  Created by: <?php echo $post['Post']['user_id']; ?></small>
+            <?php echo $this->Html->link($post['Post']['title'], array('action' => 'view', $post['Post']['id'])); ?><small class="pull-right"><?php echo $post['Post']['created']; ?>  Created by: <?php echo $post['Post']['username']; ?></small>
         </h3>
         <p>
             <?php echo $post['Post']['body']; ?>

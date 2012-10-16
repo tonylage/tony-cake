@@ -6,7 +6,6 @@
         <table class="table table-striped">
             <tr>
                 <th>Name</th>
-                <th>Email</th>
                 <th>Username</th>
                 <th>Actions</th>
             </tr>
@@ -14,9 +13,6 @@
             <tr>
                 <td>
                     <?php echo $user['User']['name']; ?>
-                </td>
-                <td>
-                    <?php echo $user['User']['email']; ?>
                 </td>
                 <td>
                     <?php echo $user['User']['username']; ?>
@@ -32,6 +28,7 @@
             </tr>
             <?php endforeach; ?>
         </table>
+</div>
     <div class="pagination pagination-centered">
         <ul>
             <li><?php echo $this->Paginator->prev(' << ' . __('previous'),
@@ -45,5 +42,5 @@
             array('class' => 'disabled')); ?></li>
         </ul>
     </div>
-</div>
+
     
