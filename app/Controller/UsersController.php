@@ -6,7 +6,19 @@ class UsersController extends AppController {
 
             public function beforeFilter() {
         parent::beforeFilter();
-        $this->Auth->allow('add'); // Letting users register themselves
+        $this->Auth->allow('add', 'index'); // Letting users register themselves
+    }
+
+    public function isAuthorized($user) {
+        if ($user['role'] == 'admin') {
+            return true;
+        }
+        if (in_array($this->action, array('edit', 'delete'))) {
+            if ($user['id'] != $this->request->params['pass'][0]) {
+                return false;
+            }
+        }
+        return true;
     }
 
     public function login() {
@@ -32,6 +44,10 @@ class UsersController extends AppController {
         $this->User->id = $id;
         if (!$this->User->exists()) {
             throw new NotFoundException(__('Invalid user'));
+        }
+        if (!$id) {
+            $this->Session->setFlash('Invalid user');
+            $this->redirect(array('action' => 'index'));
         }
         $this->set('user', $this->User->read(null, $id));
     }

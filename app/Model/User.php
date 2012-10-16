@@ -1,38 +1,62 @@
 <?php
-// app/Model/User.php
-App::uses('AuthComponent', 'Controller/Component');
 class User extends AppModel {
     public $name = 'User';
+    public $displayField = 'name';
+    
     public $validate = array(
-        'username' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'A username is required'
+        'name'=>array(
+            'Please enter your name.'=>array(
+                'rule'=>'notEmpty',
+                'message'=>'Please enter your name.'
             )
         ),
-        'password' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'A password is required'
+        'username'=>array(
+            'The username must be between 5 and 15 characters.'=>array(
+                'rule'=>array('between', 5, 15),
+                'message'=>'The username must be between 5 and 15 characters.'
+            ),
+            'That username has already been taken'=>array(
+                'rule'=>'isUnique',
+                'message'=>'That username has already been taken.'
             )
         ),
-        'role' => array(
-            'valid' => array(
-                'rule' => array('inList', array('admin', 'author')),
-                'message' => 'Please enter a valid role',
-                'allowEmpty' => false
+        'email'=>array(
+            'Valid email'=>array(
+                'rule'=>array('email'),
+                'message'=>'Please enter a valid email address'
+            )
+        ),
+        'password'=>array(
+            'Not empty'=>array(
+                'rule'=>'notEmpty',
+                'message'=>'Please enter your password'
+            ),
+            'Match passwords'=>array(
+                'rule'=>'matchPasswords',
+                'message'=>'Your passwords do not match'
+            )
+        ),
+        'password_confirmation'=>array(
+            'Not empty'=>array(
+                'rule'=>'notEmpty',
+                'message'=>'Please confirm your password'
             )
         )
     );
-
-    // ...
-
-    public function beforeSave($options = array()) {
-        if (isset($this->data[$this->alias]['password'])) {
-            $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
+    
+    public function matchPasswords($data) {
+        if ($data['password'] == $this->data['User']['password_confirmation']) {
+            return true;
+        }
+        $this->invalidate('password_confirmation', 'Your passwords do not match');
+        return false;
+    }
+    
+    public function beforeSave() {
+        if (isset($this->data['User']['password'])) {
+            $this->data['User']['password'] = AuthComponent::password($this->data['User']['password']);
         }
         return true;
     }
-
-// ...
 }
+?>

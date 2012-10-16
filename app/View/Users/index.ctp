@@ -1,56 +1,49 @@
 <!-- File: /app/View/Posts/index.ctp -->
-
-
-<h1>Users</h1>
-<?php echo $this->Html->link('Add User', array('action' => 'add'), array('class' => 'btn btn-primary')); ?>
-<br />
-<br />
-<table class="table table-striped">
-    <tr>
-        <th>Id</th>
-        <th>Username</th>
-        <th>Role</th>
-        <th>Created</th>
-        <th>Actions</th>
-    </tr>
-
-<!-- Here's where we loop through our $posts array, printing out post info -->
-
-    <?php foreach ($users as $user): ?>
-    <tr>
-        <td><?php echo $user['User']['id']; ?></td>
-        <td>
-            <?php echo $user['User']['username']; ?>
-        </td>
-        <td>
-            <?php echo $user['User']['role']; ?>
-        </td>
-        <td>
-            <?php echo $user['User']['created']; ?>
-        </td>
-        <td>
-            <?php echo $this->Html->link('Edit', array('action' => 'edit', $user['User']['id'])); ?> | 
-            <?php echo $this->Form->postLink(
-                'Delete',
-                array('action' => 'delete', $user['User']['id']),
-                array('confirm' => 'Are you sure?'));
-            ?>
-            
-        </td>
+<div class="row span12">
+    <legend><?php echo __('Users'); ?><span class="pull-right"><?php echo $this->Html->link('Add User', array('action' => 'add'), array('class' => 'btn btn-primary')); ?></span></legend>
+    <div class="well">
         
-    </tr>
-    <?php endforeach; ?>
-
-</table>
-
-<div class="pagination pagination-centered">
-    <ul>
-        <li><?php
-echo $this->Paginator->prev(' << ' . __('previous'), array(), null, array('class' => 'disabled')); ?></li>
-        <li><?php echo $this->Paginator->numbers(array('first' => 'First page')); ?></li>
-        <li><?php
-echo $this->Paginator->next(__('next') . ' >>', array(), null, array('class' => 'disabled')); ?></li>
-    </ul>
+        <table class="table table-striped">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Username</th>
+                <th>Actions</th>
+            </tr>
+            <?php foreach ($users as $user): ?>
+            <tr>
+                <td>
+                    <?php echo $user['User']['name']; ?>
+                </td>
+                <td>
+                    <?php echo $user['User']['email']; ?>
+                </td>
+                <td>
+                    <?php echo $user['User']['username']; ?>
+                </td>
+                
+                <td>
+                    <?php echo $this->Html->link('View', array('action' => 'view', $user['User']['id'])); ?>
+                    <?php if ($current_user['id'] == $user['User']['id'] || $current_user['role'] == 'admin'): ?> | 
+                        <?php echo $this->Html->link('Edit', array('action' => 'edit', $user['User']['id'])); ?> | 
+                        <?php echo $this->Form->postLink('Delete', array('action' => 'delete', $user['User']['id']), array('confirm'=>'Are you sure you want to delete that user?')); ?>
+                    <?php endif; ?>
+                </td>
+            </tr>
+            <?php endforeach; ?>
+        </table>
+    <div class="pagination pagination-centered">
+        <ul>
+            <li><?php echo $this->Paginator->prev(' << ' . __('previous'),
+            array(),
+            null, 
+            array('class' => 'disabled')); ?></li>
+            <li><?php echo $this->Paginator->numbers(array('first' => 'First page')); ?></li>
+            <li><?php echo $this->Paginator->next(__('next') . ' >>', 
+            array(), 
+            null, 
+            array('class' => 'disabled')); ?></li>
+        </ul>
+    </div>
 </div>
-
     

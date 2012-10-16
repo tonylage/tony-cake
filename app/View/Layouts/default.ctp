@@ -41,18 +41,32 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 <body>
 	<div id="container">
 		<header>
-			<div class="navbar">
+			<div class="navbar navbar-fixed-top">
     			<div class="navbar-inner">
     				<div class="pull-right">
-				    	<?php if (AuthComponent::user('id')): ?>
-							<h5 class="user">Welcome <?php echo AuthComponent::user('username'); ?>!</h5>
-						<?php endif; ?>
+						<?php if ($logged_in): ?>
+		            Welcome <?php echo $current_user['name']; ?>.  <?php echo $this->Html->link('Logout', array('controller'=>'users', 'action'=>'logout')); ?>
+		        <?php else: ?>
+		            <?php echo $this->Html->link('Login', array('controller'=>'users', 'action'=>'login')); ?> | 
+		            <?php echo $this->Html->link('Register', array('controller'=>'users', 'action'=>'add')); ?>
+		        <?php endif; ?>
 					</div>
 				<a class="brand" href="/pages/home/">Tony-Cake</a>
 				<ul class="nav">
-					<li><a href="/posts/">Blog</a></li>
-					<li><a href="/users/">Users</a></li>
-					<li><a href="/users/logout/">Logout</a></li>
+					<li>
+						<?php echo $this->Html->link('Blog', array('controller'=>'posts', 'action'=>'index')); ?>
+					</li>
+					<?php if ($logged_in): ?>
+						<li>
+							<?php echo $this->Html->link('My Profile', array('controller'=>'users','action' => 'view', $current_user['id'])); ?>
+						</li>
+					<?php endif; ?>
+					<?php if ($current_user['role'] == 'admin'): ?>
+					<li>
+						<?php echo $this->Html->link('Users', array('controller'=>'users', 'action'=>'index')); ?>
+					</li>
+					<?php endif; ?>
+					
 				</ul>
     			</div>
     		</div>
@@ -65,7 +79,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<?php echo $this->fetch('content'); ?>
 
 		</div>
-		<div id="footer">
+		<div id="footer" class="row span12">
 			<?php echo $this->Html->link(
 					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
 					'http://www.cakephp.org/',

@@ -2,9 +2,9 @@
 class PostsController extends AppController {
 
     public $paginate = array(
-        'limit' => 6,
+        'limit' => 10,
         'order' => array(
-            'Post.created' => 'asc'
+            'Post.created' => 'desc'
             )
         );
     
