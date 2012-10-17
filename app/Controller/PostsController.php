@@ -1,5 +1,9 @@
 <?php
 class PostsController extends AppController {
+    public function beforeFilter() {
+    parent::beforeFilter();
+    $this->Auth->allow('index', 'view'); // Letting users view the posts
+    }
 
     public $paginate = array(
         'limit' => 10,
@@ -63,20 +67,20 @@ class PostsController extends AppController {
     }
 
 
-public function isAuthorized($user) {
-    // All registered users can add posts
-    if ($this->action === 'add') {
-        return true;
-    }
-
-    // The owner of a post can edit and delete it
-    if (in_array($this->action, array('edit', 'delete'))) {
-        $postId = $this->request->params['pass'][0];
-        if ($this->Post->isOwnedBy($postId, $user['id'])) {
+    public function isAuthorized($user) {
+        // All registered users can add posts
+        if ($this->action === 'add') {
             return true;
         }
-    }
 
-    return parent::isAuthorized($user);
-}
+        // The owner of a post can edit and delete it
+        if (in_array($this->action, array('edit', 'delete'))) {
+            $postId = $this->request->params['pass'][0];
+            if ($this->Post->isOwnedBy($postId, $user['id'])) {
+                return true;
+            }
+        }
+
+        return parent::isAuthorized($user);
+    }
 }

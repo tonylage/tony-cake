@@ -4186,3 +4186,538 @@
 #6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
 #7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2012-10-16 16:48:59 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-16 16:48:59 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-16 16:53:45 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->edit()
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-16 16:53:59 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->edit()
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-16 16:58:11 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/dev/Workspace/tony-cake/app/View/Users/edit.ctp, line 9]
+2012-10-16 16:58:11 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 9, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 9, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-16 17:51:38 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-16 17:53:34 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-16 17:53:34 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-16 17:54:31 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-16 17:54:45 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-16 17:54:46 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-16 17:58:26 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:50:26 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('js/bootstrap.mi...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('js/bootstrap.mi...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('js/bootstrap.mi...')
+#3 [internal function]: PagesController->display('js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:50:26 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('js/bootstrap.mi...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('js/bootstrap.mi...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('js/bootstrap.mi...')
+#3 [internal function]: PagesController->display('js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:52:17 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:52:34 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:52:35 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:52:50 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:52:50 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:52:52 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:52:52 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:52:58 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:52:58 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:54:15 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:57:05 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 07:57:05 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 08:09:21 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/dev/Workspace/tony-cake/app/View/Users/add.ctp, line 16]
+2012-10-17 08:09:21 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 16, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 16, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:09:32 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/dev/Workspace/tony-cake/app/View/Users/add.ctp, line 16]
+2012-10-17 08:09:32 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 16, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 16, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:09:44 Error: Fatal Error (4): syntax error, unexpected '{', expecting ':' in [/home/dev/Workspace/tony-cake/app/View/Users/add.ctp, line 16]
+2012-10-17 08:09:44 Error: [FatalErrorException] syntax error, unexpected '{', expecting ':'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 16, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 16, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:10:06 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting ':' in [/home/dev/Workspace/tony-cake/app/View/Users/add.ctp, line 16]
+2012-10-17 08:10:06 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting ':'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 16, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 16, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:10:15 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/dev/Workspace/tony-cake/app/View/Users/add.ctp, line 18]
+2012-10-17 08:10:15 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 18, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 18, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:10:28 Error: Fatal Error (4): syntax error, unexpected '?' in [/home/dev/Workspace/tony-cake/app/View/Users/add.ctp, line 18]
+2012-10-17 08:10:28 Error: [FatalErrorException] syntax error, unexpected '?'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 18, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 18, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:10:29 Error: Fatal Error (4): syntax error, unexpected '?' in [/home/dev/Workspace/tony-cake/app/View/Users/add.ctp, line 18]
+2012-10-17 08:10:29 Error: [FatalErrorException] syntax error, unexpected '?'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 18, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 18, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:10:40 Error: Fatal Error (4): syntax error, unexpected T_ENDIF in [/home/dev/Workspace/tony-cake/app/View/Users/add.ctp, line 18]
+2012-10-17 08:10:40 Error: [FatalErrorException] syntax error, unexpected T_ENDIF
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 18, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 18, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:10:51 Error: Fatal Error (1): Call to undefined method View::redirect() in [/home/dev/Workspace/tony-cake/app/View/Users/add.ctp, line 16]
+2012-10-17 08:10:51 Error: [FatalErrorException] Call to undefined method View::redirect()
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/dev/Works...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/dev/Works...', 16, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/dev/Works...', 16, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:13:31 Error: Fatal Error (4): syntax error, unexpected ',' in [/home/dev/Workspace/tony-cake/app/View/Posts/index.ctp, line 6]
+2012-10-17 08:13:31 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 6, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 6, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:13:44 Error: Fatal Error (4): syntax error, unexpected ',' in [/home/dev/Workspace/tony-cake/app/View/Posts/index.ctp, line 6]
+2012-10-17 08:13:44 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 6, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 6, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:13:46 Error: Fatal Error (4): syntax error, unexpected ',' in [/home/dev/Workspace/tony-cake/app/View/Posts/index.ctp, line 6]
+2012-10-17 08:13:46 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 6, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 6, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:17:24 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 08:17:24 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 08:17:26 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/dev/Workspace/tony-cake/app/Controller/PostsController.php, line 33]
+2012-10-17 08:17:26 Error: [FatalErrorException] syntax error, unexpected '{'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 33)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 33, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 33, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:17:44 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/home/dev/Workspace/tony-cake/app/Controller/PostsController.php, line 34]
+2012-10-17 08:17:44 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 34, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 34, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:21:30 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/home/dev/Workspace/tony-cake/app/Controller/PostsController.php, line 46]
+2012-10-17 08:21:30 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 46, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 46, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:27:07 Error: Fatal Error (4): syntax error, unexpected ',' in [/home/dev/Workspace/tony-cake/app/Controller/PostsController.php, line 72]
+2012-10-17 08:27:07 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 72)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 72, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 72, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:28:08 Error: [MissingControllerException] Controller class BlogController could not be found.
+#0 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-17 08:30:21 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting T_FUNCTION in [/home/dev/Workspace/tony-cake/app/Controller/PostsController.php, line 77]
+2012-10-17 08:30:21 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting T_FUNCTION
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 77)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 77, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 77, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:30:26 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting T_FUNCTION in [/home/dev/Workspace/tony-cake/app/Controller/PostsController.php, line 77]
+2012-10-17 08:30:26 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting T_FUNCTION
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 77)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 77, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 77, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:34:07 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 08:34:07 Error: [MissingViewException] View file "/home/dev/Workspace/tony-cake/app/View/Pages/home/js/bootstrap.min.js.ctp" is missing.
+#0 /home/dev/Workspace/tony-cake/lib/Cake/View/View.php(472): View->_getViewFileName('home/js/bootstr...')
+#1 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(957): View->render('home/js/bootstr...', NULL)
+#2 /home/dev/Workspace/tony-cake/app/Controller/PagesController.php(73): Controller->render('home/js/bootstr...')
+#3 [internal function]: PagesController->display('home', 'js', 'bootstrap.min.j...')
+#4 /home/dev/Workspace/tony-cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dev/Workspace/tony-cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dev/Workspace/tony-cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-17 08:36:26 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting T_FUNCTION in [/home/dev/Workspace/tony-cake/app/Controller/PostsController.php, line 82]
+2012-10-17 08:36:26 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting T_FUNCTION
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 82)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 82, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 82, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 08:37:28 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting T_FUNCTION in [/home/dev/Workspace/tony-cake/app/Controller/PostsController.php, line 82]
+2012-10-17 08:37:28 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting T_FUNCTION
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 82)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 82, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 82, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 09:01:32 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting ':' in [/home/dev/Workspace/tony-cake/app/View/Users/index.ctp, line 27]
+2012-10-17 09:01:32 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting ':'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 09:02:00 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting ':' in [/home/dev/Workspace/tony-cake/app/View/Users/index.ctp, line 27]
+2012-10-17 09:02:00 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting ':'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 09:02:19 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting ':' in [/home/dev/Workspace/tony-cake/app/View/Users/index.ctp, line 27]
+2012-10-17 09:02:19 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting ':'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 09:02:21 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting ':' in [/home/dev/Workspace/tony-cake/app/View/Users/index.ctp, line 27]
+2012-10-17 09:02:21 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting ':'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 09:02:23 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting ':' in [/home/dev/Workspace/tony-cake/app/View/Users/index.ctp, line 27]
+2012-10-17 09:02:23 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting ':'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 09:03:25 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting ':' in [/home/dev/Workspace/tony-cake/app/View/Users/index.ctp, line 27]
+2012-10-17 09:03:25 Error: [FatalErrorException] syntax error, unexpected T_IF, expecting ':'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 09:03:32 Error: Fatal Error (4): syntax error, unexpected '(', expecting ':' in [/home/dev/Workspace/tony-cake/app/View/Users/index.ctp, line 27]
+2012-10-17 09:03:32 Error: [FatalErrorException] syntax error, unexpected '(', expecting ':'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 09:03:40 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/dev/Workspace/tony-cake/app/View/Users/index.ctp, line 27]
+2012-10-17 09:03:40 Error: [FatalErrorException] syntax error, unexpected ':'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 09:03:49 Error: Fatal Error (4): syntax error, unexpected '(', expecting ':' in [/home/dev/Workspace/tony-cake/app/View/Users/index.ctp, line 27]
+2012-10-17 09:03:49 Error: [FatalErrorException] syntax error, unexpected '(', expecting ':'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 27, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-17 09:04:04 Error: Fatal Error (4): syntax error, unexpected '<' in [/home/dev/Workspace/tony-cake/app/View/Users/index.ctp, line 26]
+2012-10-17 09:04:04 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 /home/dev/Workspace/tony-cake/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dev/Works...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dev/Works...', 26, Array)
+#2 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dev/Works...', 26, Array)
+#3 /home/dev/Workspace/tony-cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

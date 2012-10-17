@@ -47,8 +47,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 						<?php if ($logged_in): ?>
 		            Welcome <?php echo $current_user['name']; ?>.  <?php echo $this->Html->link('Logout', array('controller'=>'users', 'action'=>'logout')); ?>
 		        <?php else: ?>
-		            <?php echo $this->Html->link('Login', array('controller'=>'users', 'action'=>'login')); ?> | 
-		            <?php echo $this->Html->link('Register', array('controller'=>'users', 'action'=>'add')); ?>
+		            <?php echo $this->Html->link('Login', array('controller'=>'users', 'action'=>'login')); ?>  
 		        <?php endif; ?>
 					</div>
 				<a class="brand" href="/pages/home/">Tony-Cake</a>
@@ -63,7 +62,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 					<?php endif; ?>
 					<?php if ($current_user['role'] == 'admin'): ?>
 					<li>
-						<?php echo $this->Html->link('Users', array('controller'=>'users', 'action'=>'index')); ?>
+						<?php echo $this->Html->link('User Admin', array('controller'=>'users', 'action'=>'index')); ?>
 					</li>
 					<?php endif; ?>
 					
