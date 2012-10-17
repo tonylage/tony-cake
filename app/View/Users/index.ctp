@@ -1,6 +1,11 @@
 <!-- File: /app/View/Posts/index.ctp -->
 <div class="row span12">
-    <legend><?php echo __('Users'); ?><span class="pull-right"><?php echo $this->Html->link('Add User', array('action' => 'add'), array('class' => 'btn btn-primary')); ?></span></legend>
+    <legend>
+        <?php echo __('Users'); ?><span class="pull-right">
+        <?php if ($current_user['role'] == 'admin'): ?>
+            <?php echo $this->Html->link('Add User', array('action' => 'add'), array('class' => 'btn btn-primary')); ?>
+        <?php endif; ?>
+    </span></legend>
     <div class="well">
         
         <table class="table table-striped">
@@ -19,12 +24,12 @@
                 </td>
                 
                 <td>
-                    <?php echo $this->Html->link('View', array('action' => 'view', $user['User']['id'])); ?>
-                    <?php if ($current_user['role'] == 'admin'): ?> | 
+                    <?php if ($current_user['role'] == 'admin'): ?>
+                        <?php echo $this->Html->link('View', array('action' => 'view', $user['User']['id'])); ?> | 
                         <?php echo $this->Html->link('Edit', array('action' => 'edit', $user['User']['id'])); ?> | 
                         <?php echo $this->Form->postLink('Delete', array('action' => 'delete', $user['User']['id']), array('confirm'=>'Are you sure you want to delete that user?')); ?>
-                    <?php endif; ?>
-                    <?php if ($current_user['id'] == $user['User']['id']): ?> | 
+                    <?php elseif ($current_user['id'] == $user['User']['id']): ?>
+                        <?php echo $this->Html->link('View', array('action' => 'view', $user['User']['id'])); ?> | 
                         <?php echo $this->Html->link('Edit', array('action' => 'edit', $user['User']['id'])); ?>
                     <?php endif; ?>
                 </td>

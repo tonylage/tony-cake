@@ -3,6 +3,7 @@ class PostsController extends AppController {
     public function beforeFilter() {
     parent::beforeFilter();
     $this->Auth->allow('index', 'view'); // Letting users view the posts
+    $this->Auth->deny('add', 'edit');
     }
 
     public $paginate = array(

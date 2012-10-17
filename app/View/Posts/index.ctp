@@ -3,13 +3,13 @@
 <div class="row span12">
     <legend><?php echo __('Blog Posts'); ?>    
         <span class="pull-right">
-            <?php if ($logged_in): ?>
+            <?php if ($current_user['role'] == 'admin' || $current_user['role'] == 'author'): ?>
                 <?php echo $this->Html->link('Add Post', array('action' => 'add'), array('class' => 'btn btn-primary')); ?>
             <?php endif; ?>
         </span>
     </legend>
         <?php foreach ($posts as $post): ?>
-    <div class="well">
+    <div class="well well-large">
         <h3>
             <?php echo $this->Html->link($post['Post']['title'], array('action' => 'view', $post['Post']['id'])); ?><small class="pull-right"><?php echo $post['Post']['created']; ?>  Created by: <?php echo $post['Post']['username']; ?></small>
         </h3>

@@ -45,10 +45,12 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
     			<div class="navbar-inner">
     				<div class="pull-right">
 						<?php if ($logged_in): ?>
-		            Welcome <?php echo $current_user['name']; ?>.  <?php echo $this->Html->link('Logout', array('controller'=>'users', 'action'=>'logout')); ?>
-		        <?php else: ?>
-		            <?php echo $this->Html->link('Login', array('controller'=>'users', 'action'=>'login')); ?>  
-		        <?php endif; ?>
+		            		Welcome 
+		            		<?php echo $current_user['name']; ?>.  
+		            		<?php echo $this->Html->link('Logout', array('controller'=>'users', 'action'=>'logout')); ?>
+				        <?php else: ?>
+				            <?php echo $this->Html->link('Login', array('controller'=>'users', 'action'=>'login')); ?>  
+				        <?php endif; ?>
 					</div>
 				<a class="brand" href="/pages/home/">Tony-Cake</a>
 				<ul class="nav">
@@ -71,7 +73,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
     		</div>
 			
 		</header>
-		<div id="content">
+		<div id="content" class="">
 
 			<?php echo $this->Session->flash(); ?>
 

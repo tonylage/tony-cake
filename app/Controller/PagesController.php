@@ -74,6 +74,6 @@ class PagesController extends AppController {
 	}
 	public function beforeFilter() {
         parent::beforeFilter();
-        $this->Auth->allow('home', 'index', 'display'); // Letting users register themselves
+        $this->Auth->allow('home', 'index', 'display'); // Letting users visit the home page
     }
 }

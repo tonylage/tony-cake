@@ -13,8 +13,7 @@
             <?php if ($current_user['role'] == 'admin'): ?>
                 <?php echo $this->Form->input('role', array(
                 'options' => array('visitor' => 'Visitor','author' => 'Author', 'admin' => 'Admin'))); ?>
-            <?php endif; ?>
-            <?php if ($current_user['role'] != 'admin'): ?>
+            <?php elseif ($current_user['role'] != 'admin'): ?>
                 <?php echo $this->Form->input('role', array(
                 'options' => array('visitor' => 'Visitor'))); ?>
             <?php endif; ?>
